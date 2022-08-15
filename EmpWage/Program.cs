@@ -7,10 +7,15 @@ namespace EmpWage
 
         static void Main(string[] args)
         {
-            EmployeeWages employees = new EmployeeWages();
-            employees.EmployeeWage();
+
+
+            EmployeeWages reliance = new EmployeeWages("Reliance", 20, 20, 100);
+            reliance.computeEmpWage();
+
+            EmployeeWages Dmart = new EmployeeWages("Dmart", 20, 20, 100);
+            Dmart.computeEmpWage();
+
+
         }
-
-
     }
 }
